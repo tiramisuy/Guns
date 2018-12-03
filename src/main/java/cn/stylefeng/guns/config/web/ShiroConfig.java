@@ -62,6 +62,7 @@ public class ShiroConfig {
         securityManager.setCacheManager(cacheShiroManager);
         securityManager.setRememberMeManager(rememberMeManager);
         securityManager.setSessionManager(sessionManager);
+        System.out.println("git提交测试");
         return securityManager;
     }
 
