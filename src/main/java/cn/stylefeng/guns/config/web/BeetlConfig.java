@@ -43,6 +43,7 @@ public class BeetlConfig {
         BeetlConfiguration beetlConfiguration = new BeetlConfiguration();
         beetlConfiguration.setResourceLoader(new ClasspathResourceLoader(BeetlConfig.class.getClassLoader(), beetlProperties.getPrefix()));
         beetlConfiguration.setConfigProperties(beetlProperties.getProperties());
+        System.out.println("git提交测试");
         return beetlConfiguration;
     }
 
